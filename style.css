@@ -1,0 +1,53 @@
+body{
+	background-color: #FBF093;
+	font-family: 'Roboto Slab', serif;
+	font-size: 25px;
+
+}
+
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+.landing {
+	text-align: center;
+	width: 360px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+
+.text {
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap; 
+  margin: 0 auto; 
+  animation: 
+  typing 3.5s steps(30, end),
+  blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.enter {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
